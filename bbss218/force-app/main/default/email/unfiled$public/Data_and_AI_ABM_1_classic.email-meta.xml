@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Techwish</letterhead>
+    <name>Data and AI ABM 1 classic</name>
+    <style>freeForm</style>
+    <subject>Unlock the Full Potential of Data &amp; AI</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+Greetings of the day.
+
+Organizations today generate more data than ever, but the real challenge is turning that data into decisions. The gap between collecting information and extracting value can define success or failure.
+
+At Techwish Technologies, we help enterprises leverage Data &amp; AI Services to:
+
+Enable executives to turn data into revenue and competitive advantage.
+
+Help leaders make faster, smarter decisions with real-time insights.
+
+Empower teams to automate processes and eliminate bottlenecks.
+
+
+From predictive analytics and AI-driven automation to demand forecasting and risk modeling, we deliver solutions that transform raw data into measurable business outcomes.
+
+Would you like to explore how organizations like yours are using Data &amp; AI to cut costs, boost revenue, and mitigate risks?
+
+Best regards,
+{!Lead.OwnerFullName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

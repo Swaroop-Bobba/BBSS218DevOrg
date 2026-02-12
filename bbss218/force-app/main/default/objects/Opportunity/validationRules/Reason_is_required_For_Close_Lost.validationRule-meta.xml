@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_is_required_For_Close_Lost</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Closed Lost&quot;),
+    ISBLANK(   Lost_Against__c )
+)</errorConditionFormula>
+    <errorMessage>&quot;Please provide the Lost Against Information when moving to Closed Lost Stage.&quot;</errorMessage>
+</ValidationRule>

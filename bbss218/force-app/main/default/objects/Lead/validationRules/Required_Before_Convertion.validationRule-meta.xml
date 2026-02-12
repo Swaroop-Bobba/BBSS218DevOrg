@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Before_Convertion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(IsConverted),
+IsConverted,
+ISBLANK(High_Level_Requirements__c),
+ISPICKVAL(Opportunity_Type__c, &quot;&quot;),
+ISPICKVAL(Opportunity_Sub_Type__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>&quot;Please select High Level Requirments, Opportunity Type and Opportunity Sub-Type before converting the Lead.&quot;</errorMessage>
+</ValidationRule>

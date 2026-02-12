@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &quot;Working&quot;),
+    ISPICKVAL(PRIORVALUE(Status), &quot;New&quot;),
+    ISBLANK( Account__c)
+)</errorConditionFormula>
+    <errorDisplayField>Account__c</errorDisplayField>
+    <errorMessage>&quot;Approved Account is mandatory.&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ristrict_Pre_Sales_Fields</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+        $Profile.Id &lt;&gt; &apos;00egK000001qs5N&apos;,    
+    
+        ISCHANGED(Pre_sales_Head__c)
+        
+    
+)</errorConditionFormula>
+    <errorMessage>Only Pre-Sales Head Can Edit Pre-Sales Details</errorMessage>
+</ValidationRule>

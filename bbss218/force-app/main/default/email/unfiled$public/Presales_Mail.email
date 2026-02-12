@@ -1,0 +1,14 @@
+Dear All,
+
+There is a new {!Opportunity.Opportunity_Type__c} opportunity from {!Opportunity.OwnerFirstName}
+
+Here are high level details on the opportunity:
+Opportunity Name : {!Opportunity.Name}
+Sales Owner : {!Opportunity.OwnerFullName}
+Q&A submission Date : {!Opportunity.QnA_Submission_Date__c}
+Expected Deign Date : {!Opportunity.Expected_Design_Date__c}
+sloution presentation Date :{!Opportunity.Expected_Design_Date__c}
+High level Requirement : {!Opportunity.High_Level_Requirements__c}
+
+Thanks,
+{!Opportunity.OwnerFirstName}

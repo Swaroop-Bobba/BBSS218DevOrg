@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Reason_Code_for_Nurturing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;Nurturing&quot;),
+ISBLANK(  Reason_Code__c )
+)</errorConditionFormula>
+    <errorDisplayField>Reason_Code__c</errorDisplayField>
+    <errorMessage>is mandatory when moving Stage from Working to Nurturing.</errorMessage>
+</ValidationRule>

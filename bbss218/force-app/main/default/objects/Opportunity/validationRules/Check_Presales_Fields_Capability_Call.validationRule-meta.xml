@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Presales_Fields_Capability_Call</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    OR(
+        ISPICKVAL(Opportunity_Type__c, &quot;Fixed Bid&quot;),
+        ISPICKVAL(Opportunity_Type__c, &quot;Managed Services&quot;)
+    ),
+    OR(
+        ISPICKVAL(StageName, &quot;Solution Design&quot;),
+        ISPICKVAL(StageName, &quot;Proposal&quot;),
+        ISPICKVAL(StageName, &quot;Solution Presentation&quot;)
+    ),
+    OR(
+        ISBLANK(High_Level_Requirements__c),
+        ISBLANK(QnA_Submission_Date__c),
+        ISBLANK(Expected_Design_Date__c),
+        ISBLANK(Solution_Presentation_Date__c),
+        ISBLANK(Practice_Group__c),
+        ISBLANK(Practice_Head__c),
+        ISBLANK(Solution_Design_Link__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>&quot;Please complete all Presales Detail fields before moving to Further Stages&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Skip_New_To_Converted</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT(PRIORVALUE(Status)) = &quot;New&quot; &amp;&amp;
+TEXT(Status) = &quot;Converted&quot;</errorConditionFormula>
+    <errorMessage>You cannot move a Lead directly from New to Converted.</errorMessage>
+</ValidationRule>
