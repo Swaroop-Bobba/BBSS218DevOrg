@@ -15,6 +15,7 @@ public with sharing class AccountHandler {
         switch on operationType {
             when BEFORE_INSERT {
                 validateRetriveOnCreate(newAccounts);
+                
             }
             when BEFORE_UPDATE {
                 validateRetriveOnUpdate(newAccounts, oldAccountMap);
