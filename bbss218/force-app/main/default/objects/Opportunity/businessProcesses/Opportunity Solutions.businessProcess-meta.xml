@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity Solutions</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Aborted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Capability Call</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Discover</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Solution Design</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Solution Presentation</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

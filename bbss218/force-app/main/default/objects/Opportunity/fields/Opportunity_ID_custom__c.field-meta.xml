@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_ID_custom__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  Account.Name &lt;&gt; &apos;&apos;, 
+  Account.Name &amp; &quot;-&quot; &amp; TEXT(YEAR(TODAY())) &amp; &quot;-&quot; &amp; Opportunity_ID__c, 
+  &quot;None-&quot; &amp; TEXT(YEAR(TODAY())) &amp; &quot;-&quot; &amp; Opportunity_ID__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opportunity ID</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

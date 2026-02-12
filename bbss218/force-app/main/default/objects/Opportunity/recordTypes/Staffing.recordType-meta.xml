@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staffing</fullName>
+    <active>true</active>
+    <businessProcess>Opportunity Staffing</businessProcess>
+    <label>Staffing</label>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MSA_Signed_Status__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Currency__c</picklist>
+        <values>
+            <fullName>INR - Indian Rupee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD - U%2ES%2EDollar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Sub_Type__c</picklist>
+        <values>
+            <fullName>Fixed Capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project-Based- New Implementation%2FSystem Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project-Based-Application Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project-Based-Cloud Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project-Based-Technology Upgrades %2F Migrations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer-Based-Disaster Recovery %2F Business Continuity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer-Based-Infrastructure Setup and Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer-Based-Managed Services Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retainer-Based-Security Services %28Cybersecurity%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff Augmentation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Type__c</picklist>
+        <values>
+            <fullName>Fixed Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time %26 Material %28T%26M%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Practice_Group__c</picklist>
+        <values>
+            <fullName>%2ENET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud %26 Devops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Java</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Practice_Head__c</picklist>
+        <values>
+            <fullName>Abhilash Gaddam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chandra Shekhar Pasarti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dawei Zhuang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Francesco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siva Sugali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vikram kattamreddy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yuhan Lin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Customer - Downgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer - Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer - Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

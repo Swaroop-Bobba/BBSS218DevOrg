@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_is_required_For_Close_Aborted</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Aborted&quot;),
+    ISBLANK( Aborted_Reason__c )
+)</errorConditionFormula>
+    <errorMessage>&quot;Please provide the Aborted Reason when moving to Closed : Aborted Stage stage.&quot;</errorMessage>
+</ValidationRule>

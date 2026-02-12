@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Opportunity_Types_On_Conversion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISCHANGED(IsConverted),
+  IsConverted,
+  
+    ISPICKVAL(Opportunity_Type__c, &quot;&quot;),
+    ISPICKVAL(Opportunity_Sub_Type__c, &quot;&quot;),
+  NOT(ISBLANK(High_Level_Requirements__c))
+)</errorConditionFormula>
+    <errorMessage>&quot;Please select both Opportunity Type and Opportunity Sub-Type before converting the Lead.&quot;</errorMessage>
+</ValidationRule>

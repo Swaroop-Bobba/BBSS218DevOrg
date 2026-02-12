@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proposal_Proposal_document_link</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Proposal&quot;),
+    ISBLANK(Proposal_document_link__c)
+)</errorConditionFormula>
+    <errorMessage>&quot;Please provide the Proposal Document Link when moving to Proposal stage.&quot;</errorMessage>
+</ValidationRule>

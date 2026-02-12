@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Techwish1</fullName>
+    <fields>Name</fields>
+    <fields>Phone</fields>
+    <fields>Website</fields>
+    <fields>OwnerId</fields>
+    <fields>Account_Approval_Status__c</fields>
+    <fields>MSA_Signed_Status__c</fields>
+    <label>Techwish1</label>
+</CompactLayout>

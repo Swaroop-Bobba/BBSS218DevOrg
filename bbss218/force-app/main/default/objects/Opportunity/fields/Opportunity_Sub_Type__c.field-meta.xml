@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Sub_Type__c</fullName>
+    <label>Opportunity Sub-Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Opportunity_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project-Based- New Implementation/System Integration</fullName>
+                <default>false</default>
+                <label>Project-Based- New Implementation/System Integration</label>
+            </value>
+            <value>
+                <fullName>Project-Based-Application Development</fullName>
+                <default>false</default>
+                <label>Project-Based-Application Development</label>
+            </value>
+            <value>
+                <fullName>Project-Based-Cloud Migration</fullName>
+                <default>false</default>
+                <label>Project-Based-Cloud Migration</label>
+            </value>
+            <value>
+                <fullName>Project-Based-Technology Upgrades / Migrations</fullName>
+                <default>false</default>
+                <label>Project-Based-Technology Upgrades / Migrations</label>
+            </value>
+            <value>
+                <fullName>Retainer-Based-Managed Services Contract</fullName>
+                <default>false</default>
+                <label>Retainer-Based-Managed Services Contract</label>
+            </value>
+            <value>
+                <fullName>Retainer-Based-Infrastructure Setup and Support</fullName>
+                <default>false</default>
+                <label>Retainer-Based-Infrastructure Setup and Support</label>
+            </value>
+            <value>
+                <fullName>Retainer-Based-Disaster Recovery / Business Continuity</fullName>
+                <default>false</default>
+                <label>Retainer-Based-Disaster Recovery / Business Continuity</label>
+            </value>
+            <value>
+                <fullName>Retainer-Based-Security Services (Cybersecurity)</fullName>
+                <default>false</default>
+                <label>Retainer-Based-Security Services (Cybersecurity)</label>
+            </value>
+            <value>
+                <fullName>Staff Augmentation</fullName>
+                <default>false</default>
+                <label>Staff Augmentation</label>
+            </value>
+            <value>
+                <fullName>Fixed Capacity</fullName>
+                <default>false</default>
+                <label>Fixed Capacity</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fixed Bid</controllingFieldValue>
+            <valueName>Project-Based- New Implementation/System Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Bid</controllingFieldValue>
+            <valueName>Project-Based-Application Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Bid</controllingFieldValue>
+            <valueName>Project-Based-Cloud Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Bid</controllingFieldValue>
+            <valueName>Project-Based-Technology Upgrades / Migrations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Services</controllingFieldValue>
+            <valueName>Retainer-Based-Managed Services Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Services</controllingFieldValue>
+            <valueName>Retainer-Based-Infrastructure Setup and Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Services</controllingFieldValue>
+            <valueName>Retainer-Based-Disaster Recovery / Business Continuity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Services</controllingFieldValue>
+            <valueName>Retainer-Based-Security Services (Cybersecurity)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Time &amp; Material (T&amp;M)</controllingFieldValue>
+            <valueName>Staff Augmentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Time &amp; Material (T&amp;M)</controllingFieldValue>
+            <valueName>Fixed Capacity</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
