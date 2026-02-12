@@ -1,0 +1,36 @@
+<apex:page showHeader="false" sidebar="false" lightningStylesheets="true">
+  <apex:includeScript value="/soap/ajax/56.0/connection.js"/>
+  <apex:includeScript value="/soap/ajax/56.0/apex.js"/>
+  <head>
+   
+  </head>
+  <apex:includeLightning />
+  <div id="lightning" class="workshopFinder"/>
+  <script>
+    $Lightning.use("c:A_WorkshopFinder", function () {
+      $Lightning.createComponent("c:WorkshopFinder", {}, "lightning");
+    });
+    window.addEventListener("message", function (event) {
+      if (event.data.type === 'registration-complete-event') {
+        window.dataLayer.push({
+          event: "gtm.workshop-registration",
+          'gtm.data': event.data
+        });
+      }
+    }, false);
+  </script>
+  <style>
+      .workshopFinder {
+          height: 82vh;
+      }
+  </style>
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-P3MNBX2"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+    >
+    </iframe>
+  </noscript>
+</apex:page>

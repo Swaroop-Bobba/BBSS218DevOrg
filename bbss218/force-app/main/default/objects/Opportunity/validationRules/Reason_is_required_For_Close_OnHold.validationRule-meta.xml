@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_is_required_For_Close_OnHold</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;On Hold&quot;),
+    ISBLANK(  On_Hold_Reason__c )
+)</errorConditionFormula>
+    <errorMessage>&quot;Please provide the On Hold Reason when moving to Closed : On Hold Stage.&quot;</errorMessage>
+</ValidationRule>

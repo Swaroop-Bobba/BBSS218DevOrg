@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- SolutionRecordtype --></label>
+        <name>SolutionRecordtype</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StaffingRecordtype --></label>
+        <name>StaffingRecordtype</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Name --></label>
+        <name>cldfs__API_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account --></label>
+        <name>cldfs__Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account Name --></label>
+        <name>cldfs__Account_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions --></label>
+        <name>cldfs__Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Active --></label>
+        <name>cldfs__Active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add --></label>
+        <name>cldfs__Add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Column --></label>
+        <name>cldfs__Add_Column</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Columns --></label>
+        <name>cldfs__Add_Columns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add File --></label>
+        <name>cldfs__Add_File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prompt asking how many licenses to add --></label>
+        <name>cldfs__Add_Licenses_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add New Column --></label>
+        <name>cldfs__Add_New_Column</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Paths --></label>
+        <name>cldfs__Add_Paths</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Prompt --></label>
+        <name>cldfs__Add_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Added libraries --></label>
+        <name>cldfs__Added_Libraries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Allow Download --></label>
+        <name>cldfs__Allow_Download</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Allow Download Description --></label>
+        <name>cldfs__Allow_Download_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Allow new folder creation --></label>
+        <name>cldfs__Allow_Folder_Creation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Keys --></label>
+        <name>cldfs__Api_Keys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assign License --></label>
+        <name>cldfs__Assign_License</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assign license modal description --></label>
+        <name>cldfs__Assign_License_Modal_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for showing assigned licenses count --></label>
+        <name>cldfs__Assigned_Licenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto Sync --></label>
+        <name>cldfs__AutoSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AutoSync Description --></label>
+        <name>cldfs__AutoSync_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Automatically share files with experience cloud users when attached to a record --></label>
+        <name>cldfs__Auto_Share_Files_Experience_Cloud</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Autolaunched Flow Success Prompt --></label>
+        <name>cldfs__Autolaunched_Flow_Success_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Automation --></label>
+        <name>cldfs__Automation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Automation credits consumption --></label>
+        <name>cldfs__Automation_Credits_Consumption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available Fields --></label>
+        <name>cldfs__Available_Fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Azure Setup Prompt --></label>
+        <name>cldfs__Azure_Setup_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back --></label>
+        <name>cldfs__Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Behaviours --></label>
+        <name>cldfs__Behaviours</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Branding --></label>
+        <name>cldfs__Branding</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Branding logo subtext --></label>
+        <name>cldfs__Branding_Logo_Subtext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Website Subtext --></label>
+        <name>cldfs__Branding_Website_Subtext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buy Licenses --></label>
+        <name>cldfs__Buy_Licenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>cldfs__Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear All --></label>
+        <name>cldfs__Clear_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close --></label>
+        <name>cldfs__Close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CloudFiles Event Object Retention Days --></label>
+        <name>cldfs__CloudFiles_Event_Mode_Retention_Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cloudfiles Event Mode --></label>
+        <name>cldfs__Cloudfiles_Event_Mode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cloudfiles Event Mode Prompt --></label>
+        <name>cldfs__Cloudfiles_Event_Mode_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CloudFiles Event Object Retention Days SubText --></label>
+        <name>cldfs__Cloudfiles_Event_Mode_Retention_Days_SubText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CloudFiles widget card description --></label>
+        <name>cldfs__Cloudfiles_Widget_Card_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CloudFiles widget card title --></label>
+        <name>cldfs__Cloudfiles_Widget_Card_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CNAME --></label>
+        <name>cldfs__Cname</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Column Label --></label>
+        <name>cldfs__Column_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Column Title --></label>
+        <name>cldfs__Column_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Columns --></label>
+        <name>cldfs__Columns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Config Id --></label>
+        <name>cldfs__Config_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configuration --></label>
+        <name>cldfs__Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configuration Id --></label>
+        <name>cldfs__Configuration_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configuration modal description --></label>
+        <name>cldfs__Configuration_Modal_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configurations --></label>
+        <name>cldfs__Configurations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure --></label>
+        <name>cldfs__Configure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure CloudFiles Events --></label>
+        <name>cldfs__Configure_CloudFiles_Events</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure CloudFiles Events Description --></label>
+        <name>cldfs__Configure_CloudFiles_Events_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure library description --></label>
+        <name>cldfs__Configure_Library_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure library settings --></label>
+        <name>cldfs__Configure_Library_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configuring Domain --></label>
+        <name>cldfs__Configuring_Domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behavior Noop Text --></label>
+        <name>cldfs__Conflict_Behavior_Noop_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behaviors --></label>
+        <name>cldfs__Conflict_Behaviors</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behaviors Description --></label>
+        <name>cldfs__Conflict_Behaviors_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect --></label>
+        <name>cldfs__Connect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect library message --></label>
+        <name>cldfs__Connect_Library_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect library sub message --></label>
+        <name>cldfs__Connect_Library_Sub_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect New --></label>
+        <name>cldfs__Connect_New</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect new storage --></label>
+        <name>cldfs__Connect_New_Storage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connected --></label>
+        <name>cldfs__Connected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connected by --></label>
+        <name>cldfs__Connected_By</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connected on --></label>
+        <name>cldfs__Connected_On</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connection added message --></label>
+        <name>cldfs__Connection_Added_Successfully</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connection Expired Prompt --></label>
+        <name>cldfs__Connection_Expired_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connection Status --></label>
+        <name>cldfs__Connection_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connections --></label>
+        <name>cldfs__Connections</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connections description --></label>
+        <name>cldfs__Connections_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact --></label>
+        <name>cldfs__Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Us --></label>
+        <name>cldfs__Contact_Us</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content Library Widget --></label>
+        <name>cldfs__Content_Library_Widget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content Library Widget Description --></label>
+        <name>cldfs__Content_Library_Widget_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Continue --></label>
+        <name>cldfs__Continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for copying completed --></label>
+        <name>cldfs__Copy_Files_Completed_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message for failing to copy files --></label>
+        <name>cldfs__Copy_Files_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for copying in progress --></label>
+        <name>cldfs__Copy_Files_Progress_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Copy generated file to sharepoint file --></label>
+        <name>cldfs__Copy_To_Salesforce_Files</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Copy generated file to sharepoint --></label>
+        <name>cldfs__Copy_To_Sharepoint_Files</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Copy Warning file already exists --></label>
+        <name>cldfs__Copy_Warning_File_Exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Copy Warning file already exists --></label>
+        <name>cldfs__Copy_Warning_File_Exist_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Folder --></label>
+        <name>cldfs__Create_Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Folder Description --></label>
+        <name>cldfs__Create_Folder_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create link --></label>
+        <name>cldfs__Create_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create New --></label>
+        <name>cldfs__Create_New</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Playground --></label>
+        <name>cldfs__Create_Playground</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Sharing Link --></label>
+        <name>cldfs__Create_Sharing_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Sharing Link --></label>
+        <name>cldfs__Create_Sharing_Link_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Created On --></label>
+        <name>cldfs__Created_On</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Credits --></label>
+        <name>cldfs__Credits</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Domain --></label>
+        <name>cldfs__Custom_Domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Domain Name --></label>
+        <name>cldfs__Custom_Domain_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Domain Subtext --></label>
+        <name>cldfs__Custom_Domain_Subtext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Input data is not valid --></label>
+        <name>cldfs__Data_Not_Valid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Upload Error Message --></label>
+        <name>cldfs__Default_Upload_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>cldfs__Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Configuration --></label>
+        <name>cldfs__Delete_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Configuration Prompt --></label>
+        <name>cldfs__Delete_Configuration_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete docgen template modal body text --></label>
+        <name>cldfs__Delete_DocGen_Template_Content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete docgen template modal header text --></label>
+        <name>cldfs__Delete_DocGen_Template_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete File --></label>
+        <name>cldfs__Delete_File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete File Description --></label>
+        <name>cldfs__Delete_File_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Folder --></label>
+        <name>cldfs__Delete_Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Folder Description --></label>
+        <name>cldfs__Delete_Folder_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Resource Confirmation Message --></label>
+        <name>cldfs__Delete_Resource_Confirmation_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Direct Query Agent --></label>
+        <name>cldfs__Direct_Query_Agent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Direct Query Agent Description --></label>
+        <name>cldfs__Direct_Query_Agent_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disconnect --></label>
+        <name>cldfs__Disconnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disconnect Folder --></label>
+        <name>cldfs__Disconnect_Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disconnect the system user? --></label>
+        <name>cldfs__Disconnect_Library_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove --></label>
+        <name>cldfs__Disconnect_Library_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disconnect storage --></label>
+        <name>cldfs__Disconnect_Storage_Library_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document generation failed message --></label>
+        <name>cldfs__DocGen_Failed_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document generation header info --></label>
+        <name>cldfs__DocGen_Header_Info</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocGen Templates --></label>
+        <name>cldfs__DocGen_Templates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document AI --></label>
+        <name>cldfs__Document_AI</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document AI Playground --></label>
+        <name>cldfs__Document_AI_Playground</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document AI Playground Help Text --></label>
+        <name>cldfs__Document_AI_Playground_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Generation --></label>
+        <name>cldfs__Document_Generation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Management --></label>
+        <name>cldfs__Document_Management</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for document sharing tab --></label>
+        <name>cldfs__Document_Sharing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document signing failed message --></label>
+        <name>cldfs__Document_Signing_Failed_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document signing progress text --></label>
+        <name>cldfs__Document_Signing_Progress_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document signing success message --></label>
+        <name>cldfs__Document_Signing_Success_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Docusign_Integration Description --></label>
+        <name>cldfs__Docusign_Integration_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Domain is already in use --></label>
+        <name>cldfs__Domain_Already_In_Use</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Domain Configured --></label>
+        <name>cldfs__Domain_Configured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Domain Instructions --></label>
+        <name>cldfs__Domain_Instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Domain Name --></label>
+        <name>cldfs__Domain_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done --></label>
+        <name>cldfs__Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Download --></label>
+        <name>cldfs__Download</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Drive Details --></label>
+        <name>cldfs__Drive_Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Drop Files --></label>
+        <name>cldfs__Drop_Files</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit configuration --></label>
+        <name>cldfs__Edit_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Link Settings --></label>
+        <name>cldfs__Edit_Link_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Widget Configuration --></label>
+        <name>cldfs__Edit_Widget_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty document generation templates message --></label>
+        <name>cldfs__Empty_DocGen_Template_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty document generation templates message --></label>
+        <name>cldfs__Empty_DocGen_Template_Message_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Folder Message --></label>
+        <name>cldfs__Empty_Folder_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Folder Select Path Message --></label>
+        <name>cldfs__Empty_Folder_Select_Path_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable Document Sharing --></label>
+        <name>cldfs__Enable_Document_Sharing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable document sharing SubText --></label>
+        <name>cldfs__Enable_Document_Sharing_Subtext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable sharing with Experience Cloud Users --></label>
+        <name>cldfs__Enable_Experience_Cloud_Sharing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable sharing with Experience Cloud Users SubText --></label>
+        <name>cldfs__Enable_Experience_Cloud_Sharing_Subtext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Description --></label>
+        <name>cldfs__Enter_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Domain --></label>
+        <name>cldfs__Enter_Domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Folder Name --></label>
+        <name>cldfs__Enter_Folder_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Name --></label>
+        <name>cldfs__Enter_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Title --></label>
+        <name>cldfs__Enter_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Valid Domain --></label>
+        <name>cldfs__Enter_Valid_Domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please enter a valid name and value for each property --></label>
+        <name>cldfs__Enter_Valid_Property</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please enter a valid resource --></label>
+        <name>cldfs__Enter_Valid_Resource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Toast title --></label>
+        <name>cldfs__Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message --></label>
+        <name>cldfs__Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Uploaded Event --></label>
+        <name>cldfs__Event_File_Uploaded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Uploaded Event Description --></label>
+        <name>cldfs__Event_File_Uploaded_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder Created Event --></label>
+        <name>cldfs__Event_Folder_Created</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder Created Event Description --></label>
+        <name>cldfs__Event_Folder_Created_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Deleted Event --></label>
+        <name>cldfs__Event_Resource_Deleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Deleted Event Description --></label>
+        <name>cldfs__Event_Resource_Deleted_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Moved Event --></label>
+        <name>cldfs__Event_Resource_Moved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Moved Event Description --></label>
+        <name>cldfs__Event_Resource_Moved_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Updated Event --></label>
+        <name>cldfs__Event_Resource_Updated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Updated Event Description --></label>
+        <name>cldfs__Event_Resource_Updated_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expand --></label>
+        <name>cldfs__Expand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for experience cloud tab --></label>
+        <name>cldfs__Experience_Cloud</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Experience Cloud Sharing --></label>
+        <name>cldfs__Experience_Cloud_Sharing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Experience Cloud Widget --></label>
+        <name>cldfs__Experience_Cloud_Widget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Experience Cloud Widget Description --></label>
+        <name>cldfs__Experience_Cloud_Widget_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expired --></label>
+        <name>cldfs__Expired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behavior Fail Text --></label>
+        <name>cldfs__Fail_File_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behavior Fail Text for Folders --></label>
+        <name>cldfs__Fail_Folder_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File --></label>
+        <name>cldfs__File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Click Behavior --></label>
+        <name>cldfs__File_Click_Behavior</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview in Salesforce --></label>
+        <name>cldfs__File_Click_Behavior_Default</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Click Behavior Description --></label>
+        <name>cldfs__File_Click_Behavior_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open within library in new tab --></label>
+        <name>cldfs__File_Click_Behavior_Native</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Conflict Behavior --></label>
+        <name>cldfs__File_Conflict_Behavior</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Processing Prompt --></label>
+        <name>cldfs__File_Processing_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Replaced Message --></label>
+        <name>cldfs__File_Replaced_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Row --></label>
+        <name>cldfs__File_Row</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Type --></label>
+        <name>cldfs__File_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Upload --></label>
+        <name>cldfs__File_Upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Upload Description --></label>
+        <name>cldfs__File_Upload_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Upload Restriction --></label>
+        <name>cldfs__File_Upload_Restriction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Upload Restriction Description --></label>
+        <name>cldfs__File_Upload_Restriction_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Upload Restriction Prompt --></label>
+        <name>cldfs__File_Upload_Restriction_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Flow Type --></label>
+        <name>cldfs__Flow_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Flow URL --></label>
+        <name>cldfs__Flow_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder --></label>
+        <name>cldfs__Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder Conflict Behavior --></label>
+        <name>cldfs__Folder_Conflict_Behavior</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder Name --></label>
+        <name>cldfs__Folder_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder Upload --></label>
+        <name>cldfs__Folder_Upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Folder Upload Description --></label>
+        <name>cldfs__Folder_Upload_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Genrate Docx --></label>
+        <name>cldfs__Generate_Docx</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Ppt --></label>
+        <name>cldfs__Generate_Ppt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Xlsx --></label>
+        <name>cldfs__Generate_Xlsx</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generating --></label>
+        <name>cldfs__Generating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Pdf --></label>
+        <name>cldfs__Genrate_Pdf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting started text for home screen --></label>
+        <name>cldfs__Get_Started_Cloudfiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go to Billing --></label>
+        <name>cldfs__Go_To_CloudFiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home Center --></label>
+        <name>cldfs__Help_Center</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Docs --></label>
+        <name>cldfs__Help_Docs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home --></label>
+        <name>cldfs__Home</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Automation card description --></label>
+        <name>cldfs__Home_Card_Automations_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Automations --></label>
+        <name>cldfs__Home_Card_Automations_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Starts card description --></label>
+        <name>cldfs__Home_Card_Quick_Start_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Starts card title --></label>
+        <name>cldfs__Home_Card_Quick_Start_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Starts --></label>
+        <name>cldfs__Home_Card_Widgets_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widgets --></label>
+        <name>cldfs__Home_Card_Widgets_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home screen Document AI Description --></label>
+        <name>cldfs__Home_Document_AI_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home screen Document Generation Description --></label>
+        <name>cldfs__Home_Document_Generation_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home screen Document Management Description --></label>
+        <name>cldfs__Home_Document_Management_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help --></label>
+        <name>cldfs__Home_Help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Home help widget description --></label>
+        <name>cldfs__Home_Help_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inactive --></label>
+        <name>cldfs__Inactive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Install docgen addin button text --></label>
+        <name>cldfs__Install_DocGen_Word_Addin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Integration --></label>
+        <name>cldfs__Integration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Integrations --></label>
+        <name>cldfs__Integrations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Internal Record Widget --></label>
+        <name>cldfs__Internal_Record_Widget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Internal Record Widget Description --></label>
+        <name>cldfs__Internal_Record_Widget_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid credentials --></label>
+        <name>cldfs__Invalid_Credentials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid domain format --></label>
+        <name>cldfs__Invalid_Domain_Format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Items --></label>
+        <name>cldfs__Items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Keep Both --></label>
+        <name>cldfs__Keep_Both</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label --></label>
+        <name>cldfs__Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Learn more --></label>
+        <name>cldfs__Learn_More</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Libraries --></label>
+        <name>cldfs__Libraries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Connect an account --></label>
+        <name>cldfs__Libraries_Integration_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Library --></label>
+        <name>cldfs__Library</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Note about license purchase billing --></label>
+        <name>cldfs__License_Purchase_Note</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- License status --></label>
+        <name>cldfs__License_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success message when licenses are added --></label>
+        <name>cldfs__Licenses_Added_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Licenses update confirmation --></label>
+        <name>cldfs__Licenses_Updated_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link Defaults --></label>
+        <name>cldfs__Link_Defaults</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List Actions --></label>
+        <name>cldfs__List_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List Actions Description --></label>
+        <name>cldfs__List_Actions_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List Inaccessible Resources --></label>
+        <name>cldfs__List_Inaccessible_Resources</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List Inaccessible Resources Description --></label>
+        <name>cldfs__List_Inaccessible_Resources_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List View Controls --></label>
+        <name>cldfs__List_View_Controls</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List View Controls Description --></label>
+        <name>cldfs__List_View_Controls_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List View Updated --></label>
+        <name>cldfs__List_View_Update_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading --></label>
+        <name>cldfs__Loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Logo --></label>
+        <name>cldfs__Logo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Logo uploading --></label>
+        <name>cldfs__Logo_Uploading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Logout --></label>
+        <name>cldfs__Logout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage libraries --></label>
+        <name>cldfs__Manage_Libraries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage subscription --></label>
+        <name>cldfs__Manage_Subscription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Mandatory Columns --></label>
+        <name>cldfs__Mandatory_Widget_Columns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure the mandatory columns to update --></label>
+        <name>cldfs__Mandatory_Widget_Columns_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mark active --></label>
+        <name>cldfs__Mark_Active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Max Items Upload Error --></label>
+        <name>cldfs__Max_Items_Upload_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Configuration --></label>
+        <name>cldfs__Missing_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Move --></label>
+        <name>cldfs__Move</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple File Uploaded Message --></label>
+        <name>cldfs__Multiple_File_Uploaded_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple file upload progress message --></label>
+        <name>cldfs__Multiple_Upload_Progress_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name --></label>
+        <name>cldfs__Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Need Help --></label>
+        <name>cldfs__Need_Help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Folder --></label>
+        <name>cldfs__New_Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Widget Configuration --></label>
+        <name>cldfs__New_Widget_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>cldfs__Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No access message --></label>
+        <name>cldfs__No_Access_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Active Users --></label>
+        <name>cldfs__No_Active_Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No attachment message --></label>
+        <name>cldfs__No_Attachment_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No credits consumed message --></label>
+        <name>cldfs__No_Credits_Consumed_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No items message --></label>
+        <name>cldfs__No_Items_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No license message --></label>
+        <name>cldfs__No_License_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None --></label>
+        <name>cldfs__None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not Connected --></label>
+        <name>cldfs__Not_Connected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Onboarding setup prompt --></label>
+        <name>cldfs__Onboarding_Setup_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Onboarding success message --></label>
+        <name>cldfs__Onboarding_Success_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Onboarding welcome message --></label>
+        <name>cldfs__Onboarding_Welcome_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open in app --></label>
+        <name>cldfs__Open_In_App</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open In App Or Library --></label>
+        <name>cldfs__Open_In_App_Or_Library</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open In App Or Library Description --></label>
+        <name>cldfs__Open_In_App_Or_Library_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open preview in cloud library --></label>
+        <name>cldfs__Open_In_Cloud_Library</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open in Library Action --></label>
+        <name>cldfs__Open_In_Library</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open preview in Salesforce --></label>
+        <name>cldfs__Open_Preview_In_Salesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optional --></label>
+        <name>cldfs__Optional</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Or --></label>
+        <name>cldfs__Or</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other libraries --></label>
+        <name>cldfs__Other_Libraries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Owner --></label>
+        <name>cldfs__Owner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pages to process --></label>
+        <name>cldfs__Pages_To_Process</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pages to process prompt --></label>
+        <name>cldfs__Pages_To_Process_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Path --></label>
+        <name>cldfs__Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Path Name --></label>
+        <name>cldfs__Path_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Playground --></label>
+        <name>cldfs__Playground</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Playground Error Message --></label>
+        <name>cldfs__Playground_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview --></label>
+        <name>cldfs__Preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Properties --></label>
+        <name>cldfs__Properties</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Queries --></label>
+        <name>cldfs__Queries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Query Agent --></label>
+        <name>cldfs__Query_Agent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Query Agent Description --></label>
+        <name>cldfs__Query_Agent_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Query Prompt --></label>
+        <name>cldfs__Query_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Query Rate Limit Exceeded Prompt --></label>
+        <name>cldfs__Query_Rate_Limit_Exceeded_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reconnect --></label>
+        <name>cldfs__Reconnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh --></label>
+        <name>cldfs__Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Region --></label>
+        <name>cldfs__Region</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Register --></label>
+        <name>cldfs__Register</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Register Sites --></label>
+        <name>cldfs__Register_Sites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Register Sites Description --></label>
+        <name>cldfs__Register_Sites_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove --></label>
+        <name>cldfs__Remove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Domain --></label>
+        <name>cldfs__Remove_Domain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove the library? --></label>
+        <name>cldfs__Remove_Library_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove --></label>
+        <name>cldfs__Remove_Library_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Site --></label>
+        <name>cldfs__Remove_Site</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Site Description --></label>
+        <name>cldfs__Remove_Site_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove storage --></label>
+        <name>cldfs__Remove_Storage_Confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove from community --></label>
+        <name>cldfs__Remove_from_community</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rename --></label>
+        <name>cldfs__Rename</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behavior Rename Help Text --></label>
+        <name>cldfs__Rename_File_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behavior Rename Help Text for Folders --></label>
+        <name>cldfs__Rename_Folder_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Replace --></label>
+        <name>cldfs__Replace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Replace File --></label>
+        <name>cldfs__Replace_File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Replace File Extension Error Message --></label>
+        <name>cldfs__Replace_File_Extension_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict Behavior Replace Help Text --></label>
+        <name>cldfs__Replace_File_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button text for requesting additional licenses --></label>
+        <name>cldfs__Request_Additional_Licenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success message for license request --></label>
+        <name>cldfs__Request_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource --></label>
+        <name>cldfs__Resource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Actions --></label>
+        <name>cldfs__Resource_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Actions Description --></label>
+        <name>cldfs__Resource_Actions_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Deleted Message --></label>
+        <name>cldfs__Resource_Deleted_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rest Connection Expired Prompt --></label>
+        <name>cldfs__Rest_Connection_Expired_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Retry --></label>
+        <name>cldfs__Retry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Review permission sets --></label>
+        <name>cldfs__Review_Permission_Sets</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Review permission sets description --></label>
+        <name>cldfs__Review_Permission_Sets_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Role --></label>
+        <name>cldfs__Role</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- S3 Setup Prompt --></label>
+        <name>cldfs__S3_Setup_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Salesforce Connection --></label>
+        <name>cldfs__Salesforce_Connection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Salesforce Connection Prompt --></label>
+        <name>cldfs__Salesforce_Connection_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>cldfs__Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save these settings for all users --></label>
+        <name>cldfs__Save_Settings_For_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Screen Flow Success Prompt --></label>
+        <name>cldfs__Screen_Flow_Success_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search --></label>
+        <name>cldfs__Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search in this folder --></label>
+        <name>cldfs__Search_In_Folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select --></label>
+        <name>cldfs__Select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select All --></label>
+        <name>cldfs__Select_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Fields to Display --></label>
+        <name>cldfs__Select_Fields_Display</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Folder or File --></label>
+        <name>cldfs__Select_Folder_File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select the libraries --></label>
+        <name>cldfs__Select_Libraries_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select region --></label>
+        <name>cldfs__Select_Region</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select storage --></label>
+        <name>cldfs__Select_Storage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a Widget Type --></label>
+        <name>cldfs__Select_Widget_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Send document for signing --></label>
+        <name>cldfs__Send_Document_For_Signing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Service Account --></label>
+        <name>cldfs__Service_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Use service account for library access --></label>
+        <name>cldfs__Service_Account_Auth_Setting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings --></label>
+        <name>cldfs__Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup --></label>
+        <name>cldfs__Setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup admin prompt --></label>
+        <name>cldfs__Setup_Admin_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup automation --></label>
+        <name>cldfs__Setup_Automation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup automation description --></label>
+        <name>cldfs__Setup_Automation_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup Guide --></label>
+        <name>cldfs__Setup_Guide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup home --></label>
+        <name>cldfs__Setup_Home</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup user prompt --></label>
+        <name>cldfs__Setup_User_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFTP Setup Prompt --></label>
+        <name>cldfs__Sftp_Setup_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share --></label>
+        <name>cldfs__Share</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share with Community --></label>
+        <name>cldfs__Share_With_Community</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sharepoint Rest API Authorization --></label>
+        <name>cldfs__Sharepoint_Rest_API_Authorization</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sharepoint Rest API Authorization Description --></label>
+        <name>cldfs__Sharepoint_Rest_API_Authorization_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sharepoint Rest Disconnect Message --></label>
+        <name>cldfs__Sharepoint_Rest_Disconnect_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Menu --></label>
+        <name>cldfs__Show_Menu</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Single File Uploaded Message --></label>
+        <name>cldfs__Single_File_Uploaded_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Single file upload progress message --></label>
+        <name>cldfs__Single_Upload_Progress_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Site Name --></label>
+        <name>cldfs__Site_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Site URL --></label>
+        <name>cldfs__Site_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Split Agent --></label>
+        <name>cldfs__Split_Agent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Split Agent Description --></label>
+        <name>cldfs__Split_Agent_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status --></label>
+        <name>cldfs__Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Storage --></label>
+        <name>cldfs__Storage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscribe --></label>
+        <name>cldfs__Subscribe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success Toast title --></label>
+        <name>cldfs__Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Switch to Grid View --></label>
+        <name>cldfs__Switch_To_Grid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Switch to List View --></label>
+        <name>cldfs__Switch_To_List</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- System user --></label>
+        <name>cldfs__System_User</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast message on error template delete --></label>
+        <name>cldfs__Template_Delete_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Toast message on successful template delete --></label>
+        <name>cldfs__Template_Delete_Success_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header label for template version history header --></label>
+        <name>cldfs__Template_Version_History_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tenant URL --></label>
+        <name>cldfs__Tenant_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Overflow Behavior --></label>
+        <name>cldfs__Text_Overflow_Behavior</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Overflow Behavior Description --></label>
+        <name>cldfs__Text_Overflow_Behavior_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Automation Credits Used --></label>
+        <name>cldfs__Total_Automation_Credits_Used</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Usage Count Title Doc Ai --></label>
+        <name>cldfs__Total_Usage_Count_Title_Doc_Ai</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Usage Count Title Doc Gen --></label>
+        <name>cldfs__Total_Usage_Count_Title_Doc_Gen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Usage Count Title Experience Cloud --></label>
+        <name>cldfs__Total_Usage_Count_Title_Experience_Cloud</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trial --></label>
+        <name>cldfs__Trial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trial Expired --></label>
+        <name>cldfs__Trial_Expired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trial expired alert --></label>
+        <name>cldfs__Trial_Expired_Alert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trial near expiration alert --></label>
+        <name>cldfs__Trial_Near_Expiration_Alert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Trial Start Error Message --></label>
+        <name>cldfs__Trial_Start_Error_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>cldfs__Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Update --></label>
+        <name>cldfs__Update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Update Column --></label>
+        <name>cldfs__Update_Column</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload --></label>
+        <name>cldfs__Upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Files --></label>
+        <name>cldfs__Upload_Files</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Logo --></label>
+        <name>cldfs__Upload_Logo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Website URL not valid --></label>
+        <name>cldfs__Url_Not_Valid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Management --></label>
+        <name>cldfs__User_Management</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value --></label>
+        <name>cldfs__Value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value Copied --></label>
+        <name>cldfs__Value_Copied</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Verify Configuration --></label>
+        <name>cldfs__Verify_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Analytics --></label>
+        <name>cldfs__View_Analytics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Guide --></label>
+        <name>cldfs__View_Guide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Visible Fields --></label>
+        <name>cldfs__Visible_Fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Webhook Secret Key --></label>
+        <name>cldfs__Webhook_Secret_Key</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Webhook Secret Key Description --></label>
+        <name>cldfs__Webhook_Secret_Key_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Website --></label>
+        <name>cldfs__Website</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget --></label>
+        <name>cldfs__Widget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Base Path --></label>
+        <name>cldfs__Widget_Base_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Base Path Description --></label>
+        <name>cldfs__Widget_Base_Path_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Columns --></label>
+        <name>cldfs__Widget_Columns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure the columns to display in the widget --></label>
+        <name>cldfs__Widget_Columns_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Config Description --></label>
+        <name>cldfs__Widget_Config_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Config Description Prompt --></label>
+        <name>cldfs__Widget_Config_Description_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Config Name --></label>
+        <name>cldfs__Widget_Config_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Config Name Prompt --></label>
+        <name>cldfs__Widget_Config_Name_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Configuration --></label>
+        <name>cldfs__Widget_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Configuration Description --></label>
+        <name>cldfs__Widget_Configuration_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Title --></label>
+        <name>cldfs__Widget_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Title Prompt --></label>
+        <name>cldfs__Widget_Title_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Widget Type --></label>
+        <name>cldfs__Widget_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Yes --></label>
+        <name>cldfs__Yes</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- demo --></label>
+        <name>demo</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_After</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Email_Sq</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_After</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_After_for_Task_Count</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>No_Msa_Approved_Accounts</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Copy_2_of_Custom_Error_Message_1</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Custom_Error_Message_1</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Copy_1_of_Custom_Error_Message_1</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Lead_Before</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>No_Msa_Approved_Accounts</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Copy_2_of_Custom_Error_Message_1</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Custom_Error_Message_1</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Copy_1_of_Custom_Error_Message_1</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Lead_Before2</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Schedule</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Sheduled_flow_Squence_Follow_up_Mail</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Cus</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Opportunity_After</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Custom_Error</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Copy_1_of_Custom_Error</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Opportunity_Before</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Accounts with Activities --></description>
+        <label><!-- Accounts with Activities --></label>
+        <name>AP_Accounts_with_Activities_2024_07_02</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Activities --></description>
+        <label><!-- Opportunities with Activities --></label>
+        <name>AP_Opportunities_with_Activities_2024_07_02</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opptys --></description>
+        <label><!-- Opptys --></label>
+        <name>AP_Opptys_2024_07_02</name>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- User Activities --></description>
+        <label><!-- User Activities --></label>
+        <name>AP_User_Activities_2024_07_02</name>
+        <sections>
+            <label><!-- Activities (Assigned To) --></label>
+            <name>Activities (Assigned To)</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Opportunities --></description>
+        <label><!-- Accounts with Opportunities --></label>
+        <name>Accounts_with_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Definition Spring &apos;24 --></description>
+        <label><!-- Program Definition Spring &apos;24 --></label>
+        <name>Program_Definition_sfdcSESv60</name>
+        <sections>
+            <columns>
+                <label><!-- Added by --></label>
+                <name>Added by</name>
+            </columns>
+            <columns>
+                <label><!-- Is Outcome --></label>
+                <name>Is Outcome</name>
+            </columns>
+            <columns>
+                <label><!-- Program Name --></label>
+                <name>Program Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Target Day --></label>
+                <name>Target Day</name>
+            </columns>
+            <columns>
+                <label><!-- Target Result --></label>
+                <name>Target Result</name>
+            </columns>
+            <label><!-- Program Task Definitions --></label>
+            <name>Program Task Definitions</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Definition Summer &apos;24 --></description>
+        <label><!-- Program Definition Summer &apos;24 --></label>
+        <name>Program_Definition_sfdcSESv61</name>
+        <sections>
+            <columns>
+                <label><!-- Added by --></label>
+                <name>Added by</name>
+            </columns>
+            <columns>
+                <label><!-- Is Outcome --></label>
+                <name>Is Outcome</name>
+            </columns>
+            <columns>
+                <label><!-- Program Name --></label>
+                <name>Program Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Target Day --></label>
+                <name>Target Day</name>
+            </columns>
+            <columns>
+                <label><!-- Target Result --></label>
+                <name>Target Result</name>
+            </columns>
+            <label><!-- Program Task Definitions --></label>
+            <name>Program Task Definitions</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Progress Spring &apos;24 --></description>
+        <label><!-- Program Progress Spring &apos;24 --></label>
+        <name>Program_Progress_sfdcSESv60</name>
+        <sections>
+            <columns>
+                <label><!-- Completed On Day --></label>
+                <name>Completed On Day</name>
+            </columns>
+            <columns>
+                <label><!-- Completion Rate --></label>
+                <name>Completion Rate</name>
+            </columns>
+            <columns>
+                <label><!-- Completion Status --></label>
+                <name>Completion Status</name>
+            </columns>
+            <columns>
+                <label><!-- Days in Progress --></label>
+                <name>Days in Progress</name>
+            </columns>
+            <columns>
+                <label><!-- Email --></label>
+                <name>Email</name>
+            </columns>
+            <columns>
+                <label><!-- Manager --></label>
+                <name>Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Outcome Progress --></label>
+                <name>Outcome Progress</name>
+            </columns>
+            <columns>
+                <label><!-- Program Name --></label>
+                <name>Program Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Total Days --></label>
+                <name>Total Days</name>
+            </columns>
+            <columns>
+                <label><!-- User --></label>
+                <name>User</name>
+            </columns>
+            <label><!-- Program Progress --></label>
+            <name>Program Progress</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Progress Summer &apos;24 --></description>
+        <label><!-- Program Progress Summer &apos;24 --></label>
+        <name>Program_Progress_sfdcSESv61</name>
+        <sections>
+            <columns>
+                <label><!-- Completed On Day --></label>
+                <name>Completed On Day</name>
+            </columns>
+            <columns>
+                <label><!-- Completion Rate --></label>
+                <name>Completion Rate</name>
+            </columns>
+            <columns>
+                <label><!-- Completion Status --></label>
+                <name>Completion Status</name>
+            </columns>
+            <columns>
+                <label><!-- Days in Progress --></label>
+                <name>Days in Progress</name>
+            </columns>
+            <columns>
+                <label><!-- Email --></label>
+                <name>Email</name>
+            </columns>
+            <columns>
+                <label><!-- Manager --></label>
+                <name>Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Outcome Progress --></label>
+                <name>Outcome Progress</name>
+            </columns>
+            <columns>
+                <label><!-- Program Name --></label>
+                <name>Program Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Total Days --></label>
+                <name>Total Days</name>
+            </columns>
+            <columns>
+                <label><!-- User --></label>
+                <name>User</name>
+            </columns>
+            <label><!-- Program Progress --></label>
+            <name>Program Progress</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Item Progress Spring &apos;24 --></description>
+        <label><!-- Program Item Progress Spring &apos;24 --></label>
+        <name>Program_Task_Progress_sfdcSESv60</name>
+        <sections>
+            <columns>
+                <label><!-- Completion Rate --></label>
+                <name>Completion Rate</name>
+            </columns>
+            <columns>
+                <label><!-- Created By --></label>
+                <name>Created By</name>
+            </columns>
+            <columns>
+                <label><!-- Days in Progress --></label>
+                <name>Days in Progress</name>
+            </columns>
+            <columns>
+                <label><!-- Days to Complete --></label>
+                <name>Days to Complete</name>
+            </columns>
+            <columns>
+                <label><!-- Email --></label>
+                <name>Email</name>
+            </columns>
+            <columns>
+                <label><!-- Is Outcome --></label>
+                <name>Is Outcome</name>
+            </columns>
+            <columns>
+                <label><!-- Manager --></label>
+                <name>Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Milestone Target --></label>
+                <name>Milestone Target</name>
+            </columns>
+            <columns>
+                <label><!-- Minimum Sample Size --></label>
+                <name>Minimum Sample Size</name>
+            </columns>
+            <columns>
+                <label><!-- Program Name --></label>
+                <name>Program Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Status --></label>
+                <name>Program Status</name>
+            </columns>
+            <columns>
+                <label><!-- Program Task --></label>
+                <name>Program Task</name>
+            </columns>
+            <columns>
+                <label><!-- Program Task Name --></label>
+                <name>Program Task Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Task Progress ID --></label>
+                <name>Program Task Progress ID</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Section --></label>
+                <name>Section</name>
+            </columns>
+            <columns>
+                <label><!-- Section Name --></label>
+                <name>Section Name</name>
+            </columns>
+            <columns>
+                <label><!-- Target Day --></label>
+                <name>Target Day</name>
+            </columns>
+            <columns>
+                <label><!-- Task Category --></label>
+                <name>Task Category</name>
+            </columns>
+            <columns>
+                <label><!-- User --></label>
+                <name>User</name>
+            </columns>
+            <label><!-- Program Task Progress --></label>
+            <name>Program Task Progress</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Item Progress Summer &apos;24 --></description>
+        <label><!-- Program Item Progress Summer &apos;24 --></label>
+        <name>Program_Task_Progress_sfdcSESv61</name>
+        <sections>
+            <columns>
+                <label><!-- Completion Rate --></label>
+                <name>Completion Rate</name>
+            </columns>
+            <columns>
+                <label><!-- Created By --></label>
+                <name>Created By</name>
+            </columns>
+            <columns>
+                <label><!-- Days in Progress --></label>
+                <name>Days in Progress</name>
+            </columns>
+            <columns>
+                <label><!-- Days to Complete --></label>
+                <name>Days to Complete</name>
+            </columns>
+            <columns>
+                <label><!-- Email --></label>
+                <name>Email</name>
+            </columns>
+            <columns>
+                <label><!-- Is Outcome --></label>
+                <name>Is Outcome</name>
+            </columns>
+            <columns>
+                <label><!-- Manager --></label>
+                <name>Manager</name>
+            </columns>
+            <columns>
+                <label><!-- Milestone Target --></label>
+                <name>Milestone Target</name>
+            </columns>
+            <columns>
+                <label><!-- Minimum Sample Size --></label>
+                <name>Minimum Sample Size</name>
+            </columns>
+            <columns>
+                <label><!-- Program Name --></label>
+                <name>Program Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Status --></label>
+                <name>Program Status</name>
+            </columns>
+            <columns>
+                <label><!-- Program Task --></label>
+                <name>Program Task</name>
+            </columns>
+            <columns>
+                <label><!-- Program Task Name --></label>
+                <name>Program Task Name</name>
+            </columns>
+            <columns>
+                <label><!-- Program Task Progress ID --></label>
+                <name>Program Task Progress ID</name>
+            </columns>
+            <columns>
+                <label><!-- Program Type --></label>
+                <name>Program Type</name>
+            </columns>
+            <columns>
+                <label><!-- Section --></label>
+                <name>Section</name>
+            </columns>
+            <columns>
+                <label><!-- Section Name --></label>
+                <name>Section Name</name>
+            </columns>
+            <columns>
+                <label><!-- Target Day --></label>
+                <name>Target Day</name>
+            </columns>
+            <columns>
+                <label><!-- Task Category --></label>
+                <name>Task Category</name>
+            </columns>
+            <columns>
+                <label><!-- User --></label>
+                <name>User</name>
+            </columns>
+            <label><!-- Program Task Progress --></label>
+            <name>Program Task Progress</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Run Logs Spring &apos;24 --></description>
+        <label><!-- Orchestration Run Logs Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Run Log --></label>
+            <name>Orchestration Run Log</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Stage Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Stage Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Stage Runs --></label>
+            <name>Orchestration Stage Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Step Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Step Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Work Items Spring &apos;24 --></description>
+        <label><!-- Orchestration Work Items Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Orchestration Step Run: Label --></label>
+                <name>Orchestration Step Run: Label</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Name --></label>
+                <name>Orchestration Step Run: Name</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Status --></label>
+                <name>Orchestration Step Run: Status</name>
+            </columns>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Assigned Group or Queue --></label>
+                <name>Assigned Group or Queue</name>
+            </columns>
+            <columns>
+                <label><!-- Assigned User --></label>
+                <name>Assigned User</name>
+            </columns>
+            <label><!-- Orchestration Work Items --></label>
+            <name>Orchestration Work Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SOW Internal Signatory --></label>
+    <name>SOW_Internal_Signatory__c</name>
+    <relationshipLabel><!-- SOW&apos;s --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Techwish</letterhead>
+    <name>CSDS 1 Classic</name>
+    <style>freeForm</style>
+    <subject>Retail Leaders: AI-Powered Modernization to Protect Margins</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+Margins in retail and eCommerce are under pressure — rising costs, shrinking loyalty, and legacy systems make it harder to grow. Add in AI adoption pressure and ESG demands, and the challenge gets bigger.
+
+At TechWish Technologies, we help retailers modernize by:
+
+Migrating POS &amp; ERP to cloud-native microservices to cut tech debt
+
+Unifying customer data for real-time loyalty personalization
+
+Deploying AI forecasting to reduce stockouts &amp; markdowns
+
+Embedding ESG compliance tooling for effortless reporting
+
+
+Our modernization frameworks unlock agility, efficiency, and ROI — without disrupting daily operations.
+
+Would you like to see how industry peers are driving double-digit improvements?
+
+Best regards,
+{!Lead.OwnerFullName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
