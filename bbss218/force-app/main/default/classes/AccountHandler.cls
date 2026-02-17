@@ -14,7 +14,7 @@ public with sharing class AccountHandler {
     public static void handleTrigger(List<Account> newAccounts, Map<Id, Account> oldAccountMap, System.TriggerOperation operationType) {
         switch on operationType {
             when BEFORE_INSERT {
-                setTypeFromIndustryOnCreate(newAccounts);
+                setIndustryToTechnologyOnCreate(newAccounts);
                 validateRetriveOnCreate(newAccounts);
             }
             when BEFORE_UPDATE {
@@ -24,21 +24,20 @@ public with sharing class AccountHandler {
     }
 
     /**
-     * @description On Account create, sets Type to the Industry value.
-     * Safely skips setting Type if the Industry value is not a valid Account.Type picklist value.
+     * @description On Account create, sets Industry to 'Technology'.
+     * Safely skips setting Industry if 'Technology' is not a valid Account.Industry picklist value.
      * @param newAccounts List of new Account records from Trigger.new
      */
-    public static void setTypeFromIndustryOnCreate(List<Account> newAccounts) {
-        // Account.Type and Account.Industry are standard picklists; their values may not always match.
-        // To avoid insert failures, only copy Industry -> Type when the Industry value is valid for Type.
-        Set<String> allowedTypeValues = new Set<String>();
-        for (Schema.PicklistEntry pe : Account.Type.getDescribe().getPicklistValues()) {
-            allowedTypeValues.add(pe.getValue());
+    public static void setIndustryToTechnologyOnCreate(List<Account> newAccounts) {
+        // Account.Industry is a standard picklist; to avoid insert failures, only set it when the value is valid.
+        Set<String> allowedIndustryValues = new Set<String>();
+        for (Schema.PicklistEntry pe : Account.Industry.getDescribe().getPicklistValues()) {
+            allowedIndustryValues.add(pe.getValue());
         }
 
         for (Account acc : newAccounts) {
-            if (!String.isBlank(acc.Industry) && allowedTypeValues.contains(acc.Industry)) {
-                acc.Type = acc.Industry;
+            if (String.isBlank(acc.Industry) && allowedIndustryValues.contains('Technology')) {
+                acc.Industry = 'Technology';
             }
         }
     }
