@@ -14,6 +14,20 @@ private class AccountHandlerTest {
     private static final String CREATE_ERROR_MSG  = 'Retrive should be filled.';
     private static final String UPDATE_ERROR_MSG  = 'Retrive value is required in this stage.';
     private static final String TEST_RETRIVE_VAL  = 'Initial Value';
+    private static final String INDUSTRY_TECH     = 'Technology';
+
+    /**
+     * @description Helper to check if 'Technology' is a valid Industry value
+     * in the current org. Keeps tests resilient across org configurations.
+     * @return Boolean indicating whether 'Technology' is a valid Account.Industry picklist value.
+     */
+    private static Boolean isTechnologyAllowedIndustry() {
+        Set<String> allowed = new Set<String>();
+        for (Schema.PicklistEntry pe : Account.Industry.getDescribe().getPicklistValues()) {
+            allowed.add(pe.getValue());
+        }
+        return allowed.contains(INDUSTRY_TECH);
+    }
 
     /**
      * @description Creates a standard test user for System.runAs() calls.
@@ -74,6 +88,38 @@ private class AccountHandlerTest {
     }
 
     /**
+     * @description On insert, when Industry is blank, the trigger helper
+     * should default Industry to 'Technology' when that value is allowed.
+     */
+    @IsTest
+    static void createSingleWithBlankIndustryShouldSetTechnologyWhenAllowed() {
+        User testUser = createTestUser();
+        System.runAs(testUser) {
+            Account acc = new Account(
+                Name       = 'Industry Default Blank',
+                Retrive__c = 'Has Value'
+            );
+
+            insert acc;
+            acc = [SELECT Industry FROM Account WHERE Id = :acc.Id];
+
+            if (isTechnologyAllowedIndustry()) {
+                System.assertEquals(
+                    INDUSTRY_TECH,
+                    acc.Industry,
+                    'Industry should default to Technology when allowed and initially blank.'
+                );
+            } else {
+                System.assertEquals(
+                    null,
+                    acc.Industry,
+                    'Industry should remain null when Technology is not a valid Industry value.'
+                );
+            }
+        }
+    }
+
+    /**
      * @description Positive: Bulk inserting 200 Accounts with valid
      * Retrive__c values should all succeed.
      */
@@ -97,6 +143,32 @@ private class AccountHandlerTest {
                 System.assert(sr.isSuccess(),
                     'All bulk inserts should succeed when Retrive__c is provided.');
             }
+        }
+    }
+
+    /**
+     * @description On insert, when Industry is pre-populated, the trigger
+     * helper should not override it with the default Technology value.
+     */
+    @IsTest
+    static void createSingleWithExistingIndustryShouldNotOverride() {
+        User testUser = createTestUser();
+        System.runAs(testUser) {
+            String originalIndustry = 'Banking';
+            Account acc = new Account(
+                Name       = 'Industry Preserved',
+                Retrive__c = 'Has Value',
+                Industry   = originalIndustry
+            );
+
+            insert acc;
+            acc = [SELECT Industry FROM Account WHERE Id = :acc.Id];
+
+            System.assertEquals(
+                originalIndustry,
+                acc.Industry,
+                'Industry set before insert should not be overridden by the default logic.'
+            );
         }
     }
 
