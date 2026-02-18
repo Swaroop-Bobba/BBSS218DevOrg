@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="Create Account" icon-name="standard:account">
+        <div class="slds-p-around_medium">
+            <lightning-record-edit-form
+                object-api-name="Account"
+                onsuccess={handleSuccess}
+                onerror={handleError}
+            >
+                <lightning-messages></lightning-messages>
+
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                        <lightning-input-field field-name="Name"></lightning-input-field>
+                        <lightning-input-field field-name="Phone"></lightning-input-field>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                        <lightning-input-field field-name="Industry"></lightning-input-field>
+                        <lightning-input-field field-name="Type"></lightning-input-field>
+                    </div>
+                </div>
+
+                <div class="slds-m-top_medium slds-text-align_right">
+                    <lightning-button
+                        type="reset"
+                        label="Reset"
+                        class="slds-m-right_small"
+                    ></lightning-button>
+                    <lightning-button
+                        type="submit"
+                        variant="brand"
+                        label="Create Account"
+                    ></lightning-button>
+                </div>
+            </lightning-record-edit-form>
+
+            <template if:true={showSuccess}>
+                <div class="slds-m-top_medium slds-text-color_success">
+                    Account created successfully: {createdAccountId}
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
+
