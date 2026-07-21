@@ -18,6 +18,91 @@
         <offset>0</offset>
     </actionCalls>
     <actionCalls>
+        <name>Copy_1_of_Approval_Alert</name>
+        <label>Copy 1 of Approval Alert</label>
+        <locationX>314</locationX>
+        <locationY>755</locationY>
+        <actionName>Account.Account_Aproval_Request</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Account.Account_Aproval_Request</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Copy_1_of_Submit_for_Approval_Action_1</name>
+        <label>Copy 1 of Submit for Approval Action 1</label>
+        <locationX>314</locationX>
+        <locationY>647</locationY>
+        <actionName>submit</actionName>
+        <actionType>submit</actionType>
+        <connector>
+            <targetReference>Copy_1_of_Approval_Alert</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>objectId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>processDefinitionNameOrId</name>
+            <value>
+                <stringValue>Approved_account</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>submit</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Custom_Notification_Action_1</name>
+        <label>Send Custom Notification Action 1</label>
+        <locationX>578</locationX>
+        <locationY>863</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>Custom_Notification.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>RecordOwners</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <elementReference>NotificationTitleAccountApproved</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>AccountApprovedBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
         <name>Submit_for_Approval_Action_1</name>
         <label>Submit for Approval Action 1</label>
         <locationX>50</locationX>
@@ -46,10 +131,26 @@
     </actionCalls>
     <apiVersion>63.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Record_Owner_Assignment</name>
+        <label>Record Owner Assignment</label>
+        <locationX>578</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>RecordOwners</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Custom_Notification</targetReference>
+        </connector>
+    </assignments>
     <decisions>
         <name>dessision</name>
         <label>dessision</label>
-        <locationX>314</locationX>
+        <locationX>578</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -83,7 +184,56 @@
             <label>Create and Update</label>
         </rules>
     </decisions>
+    <decisions>
+        <name>Field_Updates</name>
+        <label>Field Updates</label>
+        <locationX>578</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Revenue_Changes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AnnualRevenue</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Submit_for_Approval_Action_1</targetReference>
+            </connector>
+            <label>Revenue Changes</label>
+        </rules>
+        <rules>
+            <name>Approval_Approved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account_Approval_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Account_Approval_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Record_Owner_Assignment</targetReference>
+            </connector>
+            <label>Approval Approved</label>
+        </rules>
+    </decisions>
     <environments>Default</environments>
+    <formulas>
+        <name>AccountApprovedBody</name>
+        <dataType>String</dataType>
+        <expression>&quot;Your &quot;+{!$Record.Name} + &quot; Has been Approved&quot;</expression>
+    </formulas>
     <formulas>
         <name>isRecordCreationNew</name>
         <dataType>Boolean</dataType>
@@ -110,11 +260,35 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Custom_Notification</name>
+        <label>Custom Notification</label>
+        <locationX>578</locationX>
+        <locationY>755</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Custom_Notification_Action_1</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Approval_Approved_Notification</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Records_1</name>
         <label>Update Records 1</label>
-        <locationX>314</locationX>
+        <locationX>578</locationX>
         <locationY>431</locationY>
+        <connector>
+            <targetReference>Field_Updates</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Account__c</field>
@@ -186,7 +360,7 @@
         <object>Lead</object>
     </recordUpdates>
     <start>
-        <locationX>188</locationX>
+        <locationX>452</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>dessision</targetReference>
@@ -203,5 +377,29 @@
         <isInput>true</isInput>
         <isOutput>true</isOutput>
         <objectType>Lead</objectType>
+    </variables>
+    <variables>
+        <name>NotificationTitleAccountApproved</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>Account Approved</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>RecordOwner</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>RecordOwners</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
     </variables>
 </Flow>

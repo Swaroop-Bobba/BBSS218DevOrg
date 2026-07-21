@@ -9,6 +9,7 @@
         <field>Name</field>
         <field>Owner</field>
         <field>Account_Approval_Status__c</field>
+        <field>AnnualRevenue</field>
     </approvalPageFields>
     <approvalStep>
         <allowDelegate>false</allowDelegate>

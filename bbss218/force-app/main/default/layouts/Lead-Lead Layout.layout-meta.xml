@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>DataDotComClean</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -465,6 +467,16 @@
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>ActionCadence</fields>
+        <fields>CompletionReason</fields>
+        <fields>CompletionDisposition</fields>
+        <fields>LastCompletedStep</fields>
+        <fields>CurrentStep</fields>
+        <fields>Owner</fields>
+        <fields>State</fields>
+        <relatedList>ActionCadenceTrackers</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>

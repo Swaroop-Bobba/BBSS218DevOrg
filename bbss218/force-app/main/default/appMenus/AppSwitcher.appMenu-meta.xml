@@ -149,6 +149,10 @@
         <type>ExternalClientApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Shield</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__AgentforceStudio</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -159,5 +163,37 @@
     <appMenuItems>
         <name>Postman_Connect</name>
         <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__HVSConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Admin</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__CopadoTests</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Branch_Management_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Change_Management_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Plan_Lightning</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

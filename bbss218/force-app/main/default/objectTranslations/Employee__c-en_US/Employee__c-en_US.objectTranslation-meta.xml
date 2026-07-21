@@ -9,6 +9,10 @@
         <value>Employees</value>
     </caseValues>
     <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
         <label><!-- Lead Routing --></label>
         <name>Lead_Routing</name>
     </recordTypes>

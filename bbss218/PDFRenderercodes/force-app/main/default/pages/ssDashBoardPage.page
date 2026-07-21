@@ -1,0 +1,114 @@
+<apex:page name="Sales Dashboard" renderAs="PDF" showHeader="true" sidebar="false" title="Sales Dashboard">
+    <div style="font-family:sans-serif;">
+        <h3 style="display:inline-table;padding:20px;">
+            <apex:outputText value="Super Surfaces - Sales Dashboard - {!NOW()}" />
+        </h3>
+        <!-- Deals Won this month -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Deals Won this month</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051JtX&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=no&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=Stage&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EL4d1&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=Y&amp;u=0&amp;vt=3&amp;ab2=X&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gm=0.0&amp;gc0=-1&amp;gm0=1.0&amp;gc1=-1&amp;gm1=2.0&amp;gc2=-1&amp;gm2=3.0&amp;sona=1&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EL4d1&amp;refreshts=1692349280000"></img>
+        </div>
+        
+        <!-- Deals Won last month -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Deals Won last month</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051JtY&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=no&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=Stage&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EL4g0&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=Y&amp;u=0&amp;vt=3&amp;ab2=X&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gm=0.0&amp;gc0=-1&amp;gm0=1.0&amp;gc1=-1&amp;gm1=2.0&amp;gc2=-1&amp;gm2=3.0&amp;sona=1&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EL4g0&amp;refreshts=1692349280000"></img>
+        </div>
+        
+        <!-- Deals Won this Quarter -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Deals Won this Quarter</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051Jtb&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=no&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=Stage&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EL4gF&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=Y&amp;u=0&amp;vt=3&amp;ab2=X&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gm=0.0&amp;gc0=-1&amp;gm0=1.0&amp;gc1=-1&amp;gm1=2.0&amp;gc2=-1&amp;gm2=3.0&amp;sona=1&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EL4gF&amp;refreshts=1692346497000"></img>
+        </div>
+        
+        <!-- Deals in pipeline this month -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Deals in pipeline this month</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051K4Q&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=no&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=Stage&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EL4g1&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=Y&amp;u=0&amp;vt=3&amp;ab2=X&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gm=0.0&amp;gc0=-1&amp;gm0=1.0&amp;gc1=-1&amp;gm1=2.0&amp;gc2=-1&amp;gm2=3.0&amp;sona=1&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EL4g1&amp;refreshts=1692346497000"></img>
+        </div>
+        
+        <!-- Deals in pipeline next month -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Deals in pipeline next month</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051Jtc&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=column&amp;cs=0&amp;title=&amp;eh=no&amp;compo=no&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=Stage&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EL4gP&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=Y&amp;u=0&amp;vt=3&amp;ab2=X&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gm=0.0&amp;gc0=-1&amp;gm0=1.0&amp;gc1=-1&amp;gm1=2.0&amp;gc2=-1&amp;gm2=3.0&amp;sona=1&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EL4gP&amp;refreshts=1692346498000"></img>
+        </div>
+        
+        <!-- Zonewise deals closed this quarter -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Zone wise deals closed this quarter</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051JuW&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=no&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=State+Code&amp;dl2=Opportunity+Name&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EL4g2&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gm=0.0&amp;gc0=-1&amp;gm0=1.0&amp;gc1=-1&amp;gm1=2.0&amp;gc2=-1&amp;gm2=3.0&amp;sona=1&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EL4g2&amp;refreshts=1692346497000"></img>
+        </div>
+        
+        <!-- Opportunities Closed Current Quarter -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Opportunities Closed Current Quarter</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w00000519Uz&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=donut&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=6&amp;actUrl=%2F00O2w00000EKvRf&amp;sd=1&amp;scv=yes&amp;sct=yes&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EKvRf&amp;refreshts=1690787253000"></img>
+        </div>
+
+        <!-- Opportunities Closed Last Quarter -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Opportunities Closed Last Quarter</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051JuV&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=donut&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=6&amp;actUrl=%2F00O2w00000EKvQY&amp;sd=1&amp;scv=yes&amp;sct=yes&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EKvQY&amp;refreshts=1690787254000"></img>
+        </div>
+        
+        <!-- Opportunities Closed Current FY -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Opportunities Closed Current FY</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w00000519Uw&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=donut&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Opportunity+Name&amp;dl2=&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=6&amp;actUrl=%2F00O2w00000EKvQc&amp;sd=1&amp;scv=yes&amp;sct=yes&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EKvQc&amp;refreshts=1690799313000"></img>
+        </div>
+        
+        <!-- Finish wise SFT booked (Current FY) -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Finish wise SFT booked (Current FY)</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051E7X&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=2&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Product+Name&amp;dl2=Account+Manager&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000DkPGH&amp;sd=1&amp;scv=no&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Quantity+in+SFT&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000DkPGH&amp;refreshts=1690787254000"></img>
+        </div>
+        
+        <!-- Closed SFT By Region (Last 30 Days) -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Closed SFT By Region (Last 30 Days)</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051E7h&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=2&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=State+Code&amp;dl2=Opportunity+Name&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000DkP7S&amp;sd=1&amp;scv=no&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=0&amp;vl0=Sum+of+Total+SFT&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000DkP7S&amp;refreshts=1690787253000"></img>
+        </div>
+        
+        <!-- Closed Amount By Region (Last 30 Days) -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Closed Amount By Region (Last 30 Days)</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051E7Y&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=2&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=State+Code&amp;dl2=Opportunity+Name&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000DkOR7&amp;sd=1&amp;scv=no&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000DkOR7&amp;refreshts=1690787253000"></img>
+        </div>
+
+        <!-- Revenue in pipeline by region -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Revenue in pipeline by region</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w000004epz7&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=column&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=State+Code&amp;dl2=&amp;l=2&amp;sax=yes&amp;Yman=no&amp;nc=10&amp;actUrl=%2F00O2w00000EPFLB&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EPFLB&amp;refreshts=1690787263000"></img>
+        </div>
+
+        <!-- KAM pipeline next 90 days -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>KAM pipeline next 90 days</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w00000519Y4&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Account+Manager&amp;dl2=&amp;l=2&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EPFOt&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EPFOt&amp;refreshts=1690787254000"></img>
+        </div>
+
+        <!-- Source wise Revenue (Current FY) -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Source wise Revenue (Current FY)</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051E7m&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=2&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Lead+Sub+Source&amp;dl2=Account+Manager&amp;l=1&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EPFME&amp;sd=1&amp;scv=no&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EPFME&amp;refreshts=1690787253000"></img>
+        </div>
+
+        <!-- Architect Revenue Pipeline Next 90 Days -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Architect Revenue Pipeline Next 90 Days</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w0000051Ci7&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Architect+Name&amp;dl2=&amp;l=2&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EPR9K&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EPR9K&amp;refreshts=1690787254000"></img>
+        </div>
+
+        <!-- KAM wise Revenue in Current FY -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>KAM wise Revenue in Current FY</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w00000519Y3&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Account+Manager&amp;dl2=&amp;l=2&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EPFLu&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EPFLu&amp;refreshts=1690787253000"></img>
+        </div>
+
+        <!-- Revenue By Architect Last 90 Days -->
+        <div style="display:inline-table;padding:20px;">
+            <h5>Revenue By Architect Last 90 Days</h5>
+            <img src="https://supersurfaces.my.salesforce.com/servlet/servlet.ChartServer?rsid=0FL2w000004esan&amp;ruid=0052w00000BTSVR&amp;did=01Z2w000000e9pZ&amp;s=7&amp;fs=10&amp;tfg=12&amp;tfs=-16777216&amp;explode=0&amp;c=bar&amp;cs=0&amp;title=&amp;eh=no&amp;compo=yes&amp;fg=-16777216&amp;bg1=-1&amp;bg2=-1&amp;bgdir=2&amp;dl1=Architect+Name&amp;dl2=&amp;l=2&amp;sax=yes&amp;Yman=no&amp;nc=0&amp;actUrl=%2F00O2w00000EPR9F&amp;sd=1&amp;scv=yes&amp;sct=no&amp;spt=no&amp;bd=yes&amp;cu=INR&amp;ab=X&amp;u=0&amp;vt=0&amp;ab2=Y&amp;u2=0&amp;vt2=3&amp;vl0=Sum+of+Total+Amount&amp;spoc=no&amp;topn=no&amp;gc0=-1&amp;gc1=-1&amp;gc2=-1&amp;sona=0&amp;rco=DASHBOARD_VIEW&amp;rid=00O2w00000EPR9F&amp;refreshts=1690787254000"></img>
+        </div>
+    </div>
+</apex:page>

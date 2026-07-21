@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HighVelocitySalesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <enableACAutoSendEmail>false</enableACAutoSendEmail>
-    <enableACChangeTargetAssignee>false</enableACChangeTargetAssignee>
+    <enableACAutoSendEmail>true</enableACAutoSendEmail>
+    <enableACChangeTargetAssignee>true</enableACChangeTargetAssignee>
     <enableACSkipWeekends>false</enableACSkipWeekends>
-    <enableBusinessHours>false</enableBusinessHours>
+    <enableAutoBdrEmailPref>false</enableAutoBdrEmailPref>
+    <enableAutoBdrVoicePref>false</enableAutoBdrVoicePref>
+    <enableBusinessHours>true</enableBusinessHours>
     <enableChgTgtAssigneeUsrPermPref>false</enableChgTgtAssigneeUsrPermPref>
+    <enableDispositionCategory>false</enableDispositionCategory>
+    <enableEinsteinSdrEmailPref>false</enableEinsteinSdrEmailPref>
     <enableEngagementWaveAnalyticsPref>false</enableEngagementWaveAnalyticsPref>
-    <enableHighVelocitySales>false</enableHighVelocitySales>
-    <enableHighVelocitySalesSetup>false</enableHighVelocitySalesSetup>
+    <enableHighVelocitySales>true</enableHighVelocitySales>
+    <enableHighVelocitySalesSetup>true</enableHighVelocitySalesSetup>
     <enableLogACallForCTIPref>false</enableLogACallForCTIPref>
-    <enableLogTasksForLinkedInPref>false</enableLogTasksForLinkedInPref>
+    <enableLogTasksForLinkedInPref>true</enableLogTasksForLinkedInPref>
     <enableOpportunityAttributionPermPref>false</enableOpportunityAttributionPermPref>
-    <enableTaskLoggingPref>false</enableTaskLoggingPref>
+    <enableProspectingCenterPref>false</enableProspectingCenterPref>
+    <enableQuickCadenceAutoSendEmail>true</enableQuickCadenceAutoSendEmail>
+    <enableTaskLoggingPref>true</enableTaskLoggingPref>
 </HighVelocitySalesSettings>

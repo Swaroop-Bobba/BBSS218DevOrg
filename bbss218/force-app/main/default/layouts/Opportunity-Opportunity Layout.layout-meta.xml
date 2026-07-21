@@ -65,7 +65,7 @@
                 <field>Opportunity_Currency__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Opportunity_Type__c</field>
             </layoutItems>
             <layoutItems>
@@ -117,7 +117,7 @@
                 <field>Stage_Aging__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Opportunity_Sub_Type__c</field>
             </layoutItems>
         </layoutColumns>

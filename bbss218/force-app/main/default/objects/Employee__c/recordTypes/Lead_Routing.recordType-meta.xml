@@ -3,4 +3,19 @@
     <fullName>Lead_Routing</fullName>
     <active>true</active>
     <label>Lead Routing</label>
+    <picklistValues>
+        <picklist>Lead_Flag__c</picklist>
+        <values>
+            <fullName>bi%2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>hello</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>hi%2C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

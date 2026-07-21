@@ -1,0 +1,98 @@
+<template>
+    <lightning-card title={cardTitle} icon-name="standard:dashboard">
+        <!-- Radio button toggle group at the top of card body -->
+        <div class="slds-p-bottom_medium slds-m-bottom_medium slds-border_bottom slds-align_absolute-center">
+            <fieldset class="slds-form-element">
+                <div class="slds-form-element__control">
+                    <div class="slds-grid slds-grid_align-center slds-gutters_medium">
+                        <span class="slds-radio slds-m-right_medium">
+                            <input
+                                type="radio"
+                                id="radio-subscription"
+                                value="subscription"
+                                name="actionRadioGroup"
+                                checked={isSubscription}
+                                onchange={handleActionChange}
+                            />
+                            <label class="slds-radio__label" for="radio-subscription">
+                                <span class="slds-radio_faux"></span>
+                                <span class="slds-form-element__label">Subscribe</span>
+                            </label>
+                        </span>
+                        <span class="slds-radio">
+                            <input
+                                type="radio"
+                                id="radio-unsubscription"
+                                value="unsubscription"
+                                name="actionRadioGroup"
+                                checked={isUnsubscription}
+                                onchange={handleActionChange}
+                            />
+                            <label class="slds-radio__label" for="radio-unsubscription">
+                                <span class="slds-radio_faux"></span>
+                                <span class="slds-form-element__label">Unsubscribe</span>
+                            </label>
+                        </span>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- Card Body Content -->
+        <div class="slds-p-horizontal_medium slds-is-relative">
+            <!-- Spinner -->
+            <template if:true={isLoading}>
+                <lightning-spinner alt="Loading" size="medium" variant="brand"></lightning-spinner>
+            </template>
+
+            <!-- Subscription View -->
+            <template if:true={isSubscription}>
+                <!-- Search Field -->
+                <lightning-input
+                    type="search"
+                    label="Search Dashboard"
+                    onchange={handleSearch}
+                    placeholder="Search by Dashboard Name or Folder..."
+                    class="slds-m-bottom_small"
+                >
+                </lightning-input>
+
+                <!-- Dashboard Datatable -->
+                <lightning-datatable
+                    key-field="dashboardId"
+                    data={filteredDashboards}
+                    columns={columns}
+                    onrowselection={handleRowSelection}
+                >
+                </lightning-datatable>
+
+                <!-- Schedule Action Button & Frequency Picklist -->
+                <div class="slds-m-top_medium slds-grid slds-grid_align-end slds-grid_vertical-align-end slds-gutters_small">
+                    <div class="slds-col slds-size_1-of-3 slds-text-align_left">
+                        <lightning-combobox
+                            name="frequency"
+                            label="Frequency"
+                            value={frequency}
+                            options={frequencyOptions}
+                            onchange={handleFrequencyChange}
+                        ></lightning-combobox>
+                    </div>
+                    <div class="slds-col">
+                        <lightning-button
+                            variant="brand"
+                            label={buttonLabel}
+                            onclick={handleScheduleDashboard}
+                            disabled={isButtonDisabled}
+                        >
+                        </lightning-button>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Unsubscription View -->
+            <template if:true={isUnsubscription}>
+                <c-delete-schedule-dash-to-ext-user-cardless></c-delete-schedule-dash-to-ext-user-cardless>
+            </template>
+        </div>
+    </lightning-card>
+</template>

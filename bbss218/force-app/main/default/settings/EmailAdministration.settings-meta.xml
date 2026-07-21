@@ -4,7 +4,7 @@
     <enableEmailConsentManagement>false</enableEmailConsentManagement>
     <enableEmailSenderIdCompliance>false</enableEmailSenderIdCompliance>
     <enableEmailSpfCompliance>true</enableEmailSpfCompliance>
-    <enableEmailToSalesforce>false</enableEmailToSalesforce>
+    <enableEmailToSalesforce>true</enableEmailToSalesforce>
     <enableEmailTrackingIPBlocklist>false</enableEmailTrackingIPBlocklist>
     <enableEmailWorkflowApproval>false</enableEmailWorkflowApproval>
     <enableEnhancedEmailEnabled>true</enableEnhancedEmailEnabled>

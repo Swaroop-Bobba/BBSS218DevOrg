@@ -11,8 +11,8 @@
     <enableInboxInternalEmailTracking>false</enableInboxInternalEmailTracking>
     <enableInboxMobileIntune>false</enableInboxMobileIntune>
     <enableInboxUseGraphApi>false</enableInboxUseGraphApi>
-    <enableOutlookIntegration>false</enableOutlookIntegration>
-    <enableProductivityFeatures>false</enableProductivityFeatures>
+    <enableOutlookIntegration>true</enableOutlookIntegration>
+    <enableProductivityFeatures>true</enableProductivityFeatures>
     <enableSupplementalContactInfoInMobile>false</enableSupplementalContactInfoInMobile>
     <isLayoutCustomizationAllowed>false</isLayoutCustomizationAllowed>
     <orgIsSyncingEventsOutbound>true</orgIsSyncingEventsOutbound>

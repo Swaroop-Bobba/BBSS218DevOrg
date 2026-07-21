@@ -131,28 +131,24 @@
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Values</customTabListAdditionalFields>
         <customTabListAdditionalFields>Type</customTabListAdditionalFields>
         <customTabListAdditionalFields>ContentType</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Values</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Type</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ContentType</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Values</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Type</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ContentType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Values</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ContentType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>

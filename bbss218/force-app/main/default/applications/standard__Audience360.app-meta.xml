@@ -34,5 +34,6 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-UnstructuredData</tabs>
     <tabs>SOW__c</tabs>
+    <tabs>standard-DataCleanRoom</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

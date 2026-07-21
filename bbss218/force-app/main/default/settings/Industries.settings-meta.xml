@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <appointmentDistributionOrgPref>false</appointmentDistributionOrgPref>
+    <enableAIAccelerator>false</enableAIAccelerator>
     <enableAccountScoreEnabled>false</enableAccountScoreEnabled>
     <enableAnyResourceTypeOrgPref>false</enableAnyResourceTypeOrgPref>
     <enableAppFrmAnywhereOrgPref>false</enableAppFrmAnywhereOrgPref>
@@ -19,6 +20,8 @@
     <enablePartyprofParentMultiSharingOrgPref>false</enablePartyprofParentMultiSharingOrgPref>
     <enablePreBookedFallbackMechOrgPref>false</enablePreBookedFallbackMechOrgPref>
     <enableSchedulerPaymentsPref>false</enableSchedulerPaymentsPref>
+    <enableScoringFrameworkCRMAPref>false</enableScoringFrameworkCRMAPref>
+    <enableScoringFrameworkOrgPref>false</enableScoringFrameworkOrgPref>
     <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
     <enableTopicOrTemplate>false</enableTopicOrTemplate>
     <enableTopicTimeSlot>true</enableTopicTimeSlot>
